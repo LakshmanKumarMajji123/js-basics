@@ -6,7 +6,7 @@ const products = [
 ];
 
 // Initialize Cart
-let cart = [];
+let cart = []; //empty arry taken for cart
 
 // Function to Display Products
 const displayProducts = () => {

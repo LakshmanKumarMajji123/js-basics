@@ -5,7 +5,7 @@ console.log("\n" + "\n");
 /**
  * Destructive-Array :- To change the original array by "pop & push" methods
  * pop -->to remove the element from the Array
- * push---> to Add the element in the array which is added in the last element in the array.
+ * push---> to Add the element in the array which is added as last element in the array.
  * 
  * 
  * Non -destructive :- Not change the "original one it's variable only change"
@@ -23,11 +23,11 @@ let brands = [
 ];
 
 brands.push("budwisor", "Knockout");
- brands[3] = "british empire";
+brands[3] = "british empire";
 
 console.log(brands.pop(2));
 
- 
+
 for (let Count = 0; Count < brands.length; Count++) {
 
   console.log(brands[Count]);
@@ -66,15 +66,31 @@ console.log("\n");
 let num_1 = 25;
 let num_2 = 50;
 
- console.log(num_1 == num_2);
- console.log(num_1 <= num_2);
- console.log(num_1 > num_2);
+console.log(num_1 == num_2);
+console.log(num_1 <= num_2);
+console.log(num_1 > num_2);
 
- console.log("\n");
- /** loose(==) versus strict(===) */
+console.log("\n");
+/** loose(==) versus strict(===) */
 
- let Num = 25;
+let Num = 25;
 
- console.log(Num == 25);
- console.log(Num == "25"); //it shows wrong o/p "true" num can't equal to string
- console.log(Num === "25"); //false
+console.log(Num == 25);
+console.log(Num == "25"); //it shows wrong o/p "true" num can't equal to string
+console.log(Num === "25"); //false
+
+
+let k, movies = [
+  "bahubali",
+  "gamechanger",
+  "RRR"
+];
+
+
+movies.push("orange");
+movies.pop("gamechanger");
+
+
+for (k = 0; k < movies.length; k++) {
+  console.log(movies[k]);
+}

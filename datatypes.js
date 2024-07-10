@@ -11,6 +11,8 @@
 /**strings mainly 4 properties are there:- 
  * 1. string cancetination
  * 2. how to access characters in a string
+ * 3. string properties
+ * 4. string methods
  */
 
 
@@ -88,7 +90,7 @@ console.log(part);
 
 console.log(text.substring(6, 19)); //start postion & end position  after and before postions are printed
 
-console.log(text.substr(7, 8)); //form starting postion to up to count the 8th  indexe before from the starting postion 7
+console.log("91th line....", text.substr(7, 8)); //from starting postion to up to count the 8th  indexe before from the starting postion 7
 
 let text1 = "      Himalayan      ";
 let text2 = text1.trim();
