@@ -1,0 +1,1 @@
+console.log("My Name is ", myName, "i'm a ", designtion, "of", organization, "at", place);
