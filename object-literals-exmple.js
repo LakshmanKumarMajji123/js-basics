@@ -11,7 +11,7 @@ let IT_employer = {
   name: "Lithin",
   age: 24,
   organizatioin: "TCS",
-  salary: 500000,
+  salary: 50000,
 
   //methods
   login: function () {
