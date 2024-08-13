@@ -22,7 +22,7 @@ form.addEventListener("submit", (event) => {
 
     //console.log("Both are 'TRUE'");
     p.setAttribute("class", "success");
-    p.textContent = "Feedback submitted, Thank You!";
+    p.textContent = "Feedback submitted, Thank You!!";
 
   } else {
 
