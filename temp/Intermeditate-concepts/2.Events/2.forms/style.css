@@ -1,0 +1,86 @@
+* {
+  font-family: 'segoe UI', Tahoma, Geneva, VErdana, sans-serif;
+  background-color: rgb(237, 242, 255);
+}
+
+
+.container {
+
+  width: 300px;
+  margin: auto;
+}
+
+
+#username,
+#feedback {
+
+  /* margin-left: 50px; */
+  margin-bottom: 10px;
+  border-radius: 0;
+}
+
+#username {
+  padding: 10px;
+  width: 250px;
+  /* border: solid 1px rgb(87, 87, 87);
+  border-radius: 0; */
+}
+
+#feedback {
+
+  width: 270px;
+  height: 60px;
+}
+
+#submit {
+
+  display: block;
+  margin-left: 100px;
+  background-color: rgb(60, 182, 60);
+  color: black;
+  border: none;
+  width: 270px;
+  margin-left: 0;
+  padding: 6px;
+  font-size: 15px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+.success {
+
+  background-color: #43e478;
+  padding: 10px 5px;
+  text-align: center;
+  width: 400px;
+  margin-left: auto;
+  border-radius: 5px;
+  border: 1px solid black;
+
+}
+
+.error {
+  background-color: rgb(220, 39, 39);
+  color: white;
+  border: 1px solid #ffff;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.03);
+  padding: 10px 5px;
+  text-align: center;
+  width: 400px;
+  margin-left: auto;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.Accepted {
+
+  border: 2px solid rgb(45, 218, 45);
+}
+
+.Rejected {
+  border: 2px solid rgb(208, 22, 22);
+
+}
